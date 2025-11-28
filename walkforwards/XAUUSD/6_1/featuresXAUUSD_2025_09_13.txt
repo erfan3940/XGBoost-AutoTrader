@@ -1,0 +1,1 @@
+['MA_200', 'MA_50', 'MA_Cross50/100', 'MA_Cross100/200', 'dist_to_weekly_high', 'dist_to_weekly_low', 'adx_di_crossunder', 'Support_1', 'Support_2', 'Resistance_1', 'Resistance_2', 'adx_di_crossover', 'Fib_382', 'MACD_Signal', 'Volume_MA', 'Volume_Price_Correlation', 'OBV']

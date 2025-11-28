@@ -1,0 +1,1 @@
+['dist_to_weekly_high', 'dist_to_weekly_low', 'dist_to_Support_1', 'dist_to_Support_2', 'dist_to_Resistance_1', 'dist_to_Resistance_2', 'dist_to_MA_200', 'dist_to_MA_20', 'dist_to_fibo38', 'dist_to_fibo50', 'trend_dist_support', 'trend_dist_resistance']

@@ -1,0 +1,14 @@
+=== 0 ===
+Accuracy: 0.68
+Confusion Matrix:
+[[459  97  64]
+ [ 99 145 119]
+ [ 76  31 433]]
+
+Classification Report:
+                0       1       2  accuracy  macro avg  weighted avg
+precision    0.72    0.53    0.70      0.68       0.65          0.67
+recall       0.74    0.40    0.80      0.68       0.65          0.68
+f1-score     0.73    0.46    0.75      0.68       0.65          0.67
+support    620.00  363.00  540.00      0.68    1523.00       1523.00
+

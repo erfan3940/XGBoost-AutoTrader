@@ -1,0 +1,70 @@
+=== 4 ===
+Accuracy: 0.55
+Confusion Matrix:
+[[300 152  13]
+ [ 97 182 310]
+ [ 61  51 369]]
+
+Classification Report:
+                0       1       2  accuracy  macro avg  weighted avg
+precision    0.66    0.47    0.53      0.55       0.55          0.55
+recall       0.65    0.31    0.77      0.55       0.57          0.55
+f1-score     0.65    0.37    0.63      0.55       0.55          0.54
+support    465.00  589.00  481.00      0.55    1535.00       1535.00
+
+=== 3 ===
+Accuracy: 0.69
+Confusion Matrix:
+[[546  53 127]
+ [ 95 175 100]
+ [ 64  26 312]]
+
+Classification Report:
+                0       1       2  accuracy  macro avg  weighted avg
+precision    0.77    0.69    0.58      0.69       0.68          0.70
+recall       0.75    0.47    0.78      0.69       0.67          0.69
+f1-score     0.76    0.56    0.66      0.69       0.66          0.69
+support    726.00  370.00  402.00      0.69    1498.00       1498.00
+
+=== 2 ===
+Accuracy: 0.65
+Confusion Matrix:
+[[453  45  52]
+ [101  42  21]
+ [234  94 518]]
+
+Classification Report:
+                0       1       2  accuracy  macro avg  weighted avg
+precision    0.57    0.23    0.88      0.65       0.56          0.70
+recall       0.82    0.26    0.61      0.65       0.56          0.65
+f1-score     0.68    0.24    0.72      0.65       0.55          0.66
+support    550.00  164.00  846.00      0.65    1560.00       1560.00
+
+=== 1 ===
+Accuracy: 0.67
+Confusion Matrix:
+[[430  29 186]
+ [ 62  69  69]
+ [146  26 533]]
+
+Classification Report:
+                0       1       2  accuracy  macro avg  weighted avg
+precision    0.67    0.56    0.68      0.67       0.64          0.66
+recall       0.67    0.34    0.76      0.67       0.59          0.67
+f1-score     0.67    0.43    0.71      0.67       0.60          0.66
+support    645.00  200.00  705.00      0.67    1550.00       1550.00
+
+=== 0 ===
+Accuracy: 0.67
+Confusion Matrix:
+[[465  62  93]
+ [115 131 118]
+ [ 69  43 428]]
+
+Classification Report:
+                0       1       2  accuracy  macro avg  weighted avg
+precision    0.72    0.56    0.67      0.67       0.65          0.66
+recall       0.75    0.36    0.79      0.67       0.63          0.67
+f1-score     0.73    0.44    0.73      0.67       0.63          0.66
+support    620.00  364.00  540.00      0.67    1524.00       1524.00
+

@@ -1,0 +1,1 @@
+['Returns', 'Log_Returns', 'MA_20', 'MA_50', 'EMA_12', 'EMA_26', 'BB_Mid', 'BB_Low', 'BB_High', 'BB_Width', 'RSI_14', 'MACD', 'MACD_Signal', 'MACD_Histogram', 'Volatility', 'HL_Ratio', 'OC_Ratio']
