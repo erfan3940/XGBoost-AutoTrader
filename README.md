@@ -57,23 +57,29 @@ The bot is built for any MetaTrader 5 symbol, but tested mainly on:
 ---
 
 # 🧬 Architecture Overview  
-/XGB_AutoTrader
-│── src/
-│ ├── main.py # main trading loop
-│ ├── order_manager.py # send orders
-│ ├── backtest_tp_sl_window.py # include different types of backtest
-│ ├── MT5_connetor.py # essensials for mt5 conneting
-│ ├── model_maker_static.ipynb # static backtest
-│ ├── model_maker_dynamic.ipynb # WFA backtest
-│ ├── data_manager.py # get and control data flow
-│ ├── feature_generator.py # almost all usefull features for trading
-│ ├── config.py (NOT INCLUDED - PRIVATE) # has selected models features
-│── LICENSE (Apache 2.0)
-│── README.md
-├── walkforwards # backtests resualts in different symbols, timeframe and feartures and ...
-├── models # last retrained models
-├── data # price feed for training
-├── model_logs # model saved logs
+
+```markdown
+XGB_AutoTrader/
+│
+├── src/
+│   ├── main.py                     # Main trading loop
+│   ├── order_manager.py            # Order sending & execution logic
+│   ├── backtest_tp_sl_window.py    # Static & walk-forward backtesting entry
+│   ├── MT5_connector.py            # MetaTrader 5 connection utilities
+│   ├── model_maker_static.ipynb    # Notebook for static model training/backtest
+│   ├── model_maker_dynamic.ipynb   # Notebook for WFA model training/backtest
+│   ├── data_manager.py             # Data loading and flow control
+│   ├── feature_generator.py        # Full feature engineering module
+│   ├── config.py (NOT INCLUDED)    # Private – selected features & tunings
+│
+├── walkforwards/                   # Backtest results for symbols/timeframes/features
+├── models/                         # Last retrained ML models
+├── data/                           # Historical price feed for training
+├── model_logs/                     # Stored model logs & retrain logs
+│
+├── LICENSE                         # Apache 2.0
+└── README.md
+
 
 # 📉 Real-World VPS Testing
 
