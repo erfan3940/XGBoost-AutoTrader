@@ -81,6 +81,8 @@ This bot has been running live for 2 months on a VPS trading EURUSD.
 During development, debugging occurred at times, so real results are not 100% clean — but backtest precision is above 50%, and walk-forward results show promising robustness.
 
 # 📊 Performance (Screenshots)
+<img width="1082" height="831" alt="Screenshot 2025-11-28 215525" src="https://github.com/user-attachments/assets/18406bef-aee9-404c-b43a-d41709de96fc" />
+<img width="1080" height="856" alt="Screenshot 2025-11-28 215612" src="https://github.com/user-attachments/assets/4d275f7a-b4c6-4695-98f9-3325e9ddb5a1" />
 
 
 # 🔧 Installation & Setup  
@@ -89,7 +91,7 @@ During development, debugging occurred at times, so real results are not 100% cl
 ```bash
 git clone https://github.com/yourname/XGB-AutoTrader.git
 cd XGB-AutoTrader
-
+'''
 This project is licensed under the Apache License 2.0.
 See the LICENSE file for full details.
 
