@@ -57,7 +57,7 @@ The bot is built for any MetaTrader 5 symbol, but tested mainly on:
 ---
 
 # 🧬 Architecture Overview  
-
+```markdown
 XGB_AutoTrader/
 │
 ├── src/
@@ -78,7 +78,7 @@ XGB_AutoTrader/
 │
 ├── LICENSE                         # Apache 2.0
 └── README.md
-
+```
 
 
 # 📉 Real-World VPS Testing
